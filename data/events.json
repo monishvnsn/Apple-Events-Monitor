@@ -1,0 +1,101 @@
+[
+  {
+    "id": "https://developer.apple.com/events/view/UK43YT24GX/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-03",
+    "end": "2026-09-05",
+    "formatted_date": "Sep 03 - Sep 04, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/UK43YT24GX/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/6269Z65L8A/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-08",
+    "end": "2026-09-10",
+    "formatted_date": "Sep 08 - Sep 09, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/6269Z65L8A/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/27PF6VT6A5/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-10",
+    "end": "2026-09-12",
+    "formatted_date": "Sep 10 - Sep 11, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/27PF6VT6A5/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/8RGU27WH9G/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-15",
+    "end": "2026-09-17",
+    "formatted_date": "Sep 15 - Sep 16, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/8RGU27WH9G/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/9B8JXH3AB2/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-17",
+    "end": "2026-09-19",
+    "formatted_date": "Sep 17 - Sep 18, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/9B8JXH3AB2/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
+    "title": "IETF HLS Interest Day",
+    "start": "2026-10-07",
+    "end": "2026-10-08",
+    "formatted_date": "Oct 07, 2026",
+    "format": "online",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/3ZNQ5DGP99/dashboard",
+    "title": "IETF HLS Interest Day",
+    "start": "2026-10-07",
+    "end": "2026-10-08",
+    "formatted_date": "Oct 07, 2026",
+    "format": "in-person",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/3ZNQ5DGP99/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
+    "title": "Boost your app\u2019s speed and efficiency",
+    "start": "2026-10-29",
+    "end": "2026-10-30",
+    "formatted_date": "Oct 29, 2026",
+    "format": "online",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/3NMS8Y6SZD/dashboard",
+    "title": "Boost your app\u2019s speed and efficiency",
+    "start": "2026-10-29",
+    "end": "2026-10-30",
+    "formatted_date": "Oct 29, 2026",
+    "format": "in-person",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/3NMS8Y6SZD/dashboard",
+    "source": "Apple Developer Events"
+  }
+]
