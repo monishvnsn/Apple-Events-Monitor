@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.fetch_events import extract_events
+from scripts.fetch_events import build_notification_message, extract_events
 
 SAMPLE_HTML = '''
 <html>
@@ -43,6 +43,22 @@ class ExtractEventsTest(unittest.TestCase):
         self.assertEqual(events[1]["title"], "IETF HLS Interest Day")
         self.assertEqual(events[1]["format"], "online")
         self.assertEqual(events[2]["format"], "in-person")
+
+    def test_builds_notification_message_for_new_events(self):
+        message = build_notification_message([
+            {
+                "title": "App Review appointment",
+                "start": "2026-09-03",
+                "format": "online",
+                "location": "Worldwide",
+                "url": "https://developer.apple.com/events/view/UK43YT24GX/dashboard",
+            }
+        ])
+
+        self.assertIn("App Review appointment", message)
+        self.assertIn("2026-09-03", message)
+        self.assertIn("Worldwide", message)
+        self.assertIn("https://developer.apple.com/events/view/UK43YT24GX/dashboard", message)
 
 
 if __name__ == "__main__":

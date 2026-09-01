@@ -2,7 +2,7 @@ name: Apple Developer Events Monitor
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,12 +20,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Playwright browser
+      - name: Install Playwright browser and dependencies
         run: |
-          python -m pip install playwright
+          python -m pip install playwright requests
           PLAYWRIGHT_BROWSERS_PATH=0 python -m playwright install chromium
 
       - name: Run Apple events scraper
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           PLAYWRIGHT_BROWSERS_PATH=0 python scripts/fetch_events.py
 

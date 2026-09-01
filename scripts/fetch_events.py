@@ -2,13 +2,16 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import quote
 
+import requests
 from playwright.sync_api import sync_playwright
 
 EVENT_PAGE_URL = "https://developer.apple.com/events/"
@@ -311,6 +314,92 @@ def save_json(path: Path, payload):
         handle.write("\n")
 
 
+def build_notification_message(events):
+    if not events:
+        return "No new Apple Developer events found."
+
+    lines = ["New Apple Developer event(s):"]
+    for event in events:
+        lines.append(
+            f"• {event.get('title', 'Untitled event')} | {event.get('start', 'Unknown date')} | "
+            f"{event.get('format', 'unknown')} | {event.get('location', 'Unknown location')} | "
+            f"{event.get('url', '')}"
+        )
+    return "\n".join(lines)
+
+
+def get_google_access_token():
+    client_id = os.getenv("GOOGLE_CLIENT_ID")
+    client_secret = os.getenv("GOOGLE_CLIENT_SECRET")
+    refresh_token = os.getenv("GOOGLE_REFRESH_TOKEN")
+
+    if not all([client_id, client_secret, refresh_token]):
+        return None
+
+    response = requests.post(
+        "https://oauth2.googleapis.com/token",
+        data={
+            "client_id": client_id,
+            "client_secret": client_secret,
+            "refresh_token": refresh_token,
+            "grant_type": "refresh_token",
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    return response.json().get("access_token")
+
+
+def add_event_to_google_calendar(event):
+    access_token = get_google_access_token()
+    if not access_token:
+        return False
+
+    calendar_id = os.getenv("GOOGLE_CALENDAR_ID", "primary")
+    payload = {
+        "summary": event.get("title", "Apple Developer Event"),
+        "location": event.get("location", ""),
+        "description": f"{event.get('format', 'event').title()} event\n{event.get('url', '')}",
+        "start": {"date": event["start"], "timeZone": "UTC"},
+        "end": {"date": event["end"], "timeZone": "UTC"},
+        "status": "confirmed",
+    }
+
+    response = requests.post(
+        f"https://www.googleapis.com/calendar/v3/calendars/{quote(calendar_id, safe='')}/events",
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json",
+        },
+        json=payload,
+        timeout=30,
+    )
+    if response.status_code not in (200, 201):
+        raise RuntimeError(f"Google Calendar API error {response.status_code}: {response.text}")
+    return True
+
+
+def send_telegram_message(message: str):
+    bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    if not bot_token or not chat_id:
+        return False
+
+    response = requests.post(
+        f"https://api.telegram.org/bot{bot_token}/sendMessage",
+        data={
+            "chat_id": chat_id,
+            "text": message,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True,
+        },
+        timeout=30,
+    )
+    if response.status_code >= 300:
+        raise RuntimeError(f"Telegram API error {response.status_code}: {response.text}")
+    return True
+
+
 def load_blackout_rules():
     if not BLACKOUT_PATH.exists():
         return []
@@ -363,7 +452,7 @@ def generate_ics(events):
             [
                 "BEGIN:VEVENT",
                 f"UID:{uid}",
-                f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
+                f"DTSTAMP:{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
                 f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
                 f"DTEND;VALUE=DATE:{end.strftime('%Y%m%d')}",
                 f"SUMMARY:{escape_ics(event['title'])}",
@@ -385,6 +474,8 @@ def main():
         page.wait_for_selector('a[href*="/events/view/"][href*="/dashboard"]', timeout=30000)
         page.wait_for_timeout(3000)
         current_events = extract_events_from_dom(page)
+        if not current_events:
+            current_events = extract_events(page.content())
         browser.close()
 
     blackout_rules = load_blackout_rules()
@@ -407,8 +498,18 @@ def main():
 
     if new_events:
         print("NEW_EVENTS_FOUND")
-        for event in new_events:
-            print(f"- {event['title']} | {event['start']} | {event['format']} | {event['location']} | {event['url']}")
+        message = build_notification_message(new_events)
+        print(message)
+        try:
+            for event in new_events:
+                add_event_to_google_calendar(event)
+        except Exception as exc:  # pragma: no cover - runtime integration path
+            print(f"GOOGLE_CALENDAR_ERROR={exc}")
+
+        try:
+            send_telegram_message(message)
+        except Exception as exc:  # pragma: no cover - runtime integration path
+            print(f"TELEGRAM_ERROR={exc}")
     else:
         print("NO_NEW_EVENTS_FOUND")
 
