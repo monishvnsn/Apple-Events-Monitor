@@ -44,6 +44,17 @@
     "source": "Apple Developer Events"
   },
   {
+    "id": "https://developer.apple.com/events/view/VYNXWMB56U/dashboard",
+    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "formatted_date": "Sep 23, 2026",
+    "format": "online",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/VYNXWMB56U/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
     "id": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
     "title": "IETF HLS Interest Day",
     "start": "2026-10-07",
@@ -66,6 +77,28 @@
     "source": "Apple Developer Events"
   },
   {
+    "id": "https://developer.apple.com/events/view/ZLM3J3D96D/dashboard",
+    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
+    "start": "2026-10-07",
+    "end": "2026-10-08",
+    "formatted_date": "Oct 07, 2026",
+    "format": "online",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/ZLM3J3D96D/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
+    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
+    "start": "2026-10-19",
+    "end": "2026-10-20",
+    "formatted_date": "Oct 19, 2026",
+    "format": "online",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
     "id": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
     "title": "Boost your app\u2019s speed and efficiency",
     "start": "2026-10-29",
@@ -74,17 +107,6 @@
     "format": "online",
     "location": "Cupertino, Cupertino",
     "url": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/3NMS8Y6SZD/dashboard",
-    "title": "Boost your app\u2019s speed and efficiency",
-    "start": "2026-10-29",
-    "end": "2026-10-30",
-    "formatted_date": "Oct 29, 2026",
-    "format": "in-person",
-    "location": "Cupertino, Cupertino",
-    "url": "https://developer.apple.com/events/view/3NMS8Y6SZD/dashboard",
     "source": "Apple Developer Events"
   }
 ]
