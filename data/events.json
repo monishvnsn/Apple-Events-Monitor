@@ -44,6 +44,17 @@
     "source": "Apple Developer Events"
   },
   {
+    "id": "https://developer.apple.com/events/view/38FDA8FPMW/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-22",
+    "end": "2026-09-24",
+    "formatted_date": "Sep 22 - Sep 23, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/38FDA8FPMW/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
     "id": "https://developer.apple.com/events/view/VYNXWMB56U/dashboard",
     "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
     "start": "2026-09-23",
@@ -52,6 +63,17 @@
     "format": "online",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/VYNXWMB56U/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/392LZ2ZJNX/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-24",
+    "end": "2026-09-26",
+    "formatted_date": "Sep 24 - Sep 25, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/392LZ2ZJNX/dashboard",
     "source": "Apple Developer Events"
   },
   {
@@ -85,28 +107,6 @@
     "format": "online",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/ZLM3J3D96D/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
-    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
-    "start": "2026-10-19",
-    "end": "2026-10-20",
-    "formatted_date": "Oct 19, 2026",
-    "format": "online",
-    "location": "Not listed",
-    "url": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
-    "title": "Boost your app\u2019s speed and efficiency",
-    "start": "2026-10-29",
-    "end": "2026-10-30",
-    "formatted_date": "Oct 29, 2026",
-    "format": "online",
-    "location": "Cupertino, Cupertino",
-    "url": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
     "source": "Apple Developer Events"
   }
 ]
