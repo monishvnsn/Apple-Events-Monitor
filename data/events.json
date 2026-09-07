@@ -1,16 +1,5 @@
 [
   {
-    "id": "https://developer.apple.com/events/view/6269Z65L8A/dashboard",
-    "title": "App Review appointment",
-    "start": "2026-09-08",
-    "end": "2026-09-10",
-    "formatted_date": "Sep 08 - Sep 09, 2026",
-    "format": "online",
-    "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/6269Z65L8A/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/27PF6VT6A5/dashboard",
     "title": "App Review appointment",
     "start": "2026-09-10",
@@ -107,6 +96,17 @@
     "format": "online",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/ZLM3J3D96D/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
+    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
+    "start": "2026-10-19",
+    "end": "2026-10-20",
+    "formatted_date": "Oct 19, 2026",
+    "format": "online",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
     "source": "Apple Developer Events"
   }
 ]
