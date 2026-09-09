@@ -1,16 +1,5 @@
 [
   {
-    "id": "https://developer.apple.com/events/view/27PF6VT6A5/dashboard",
-    "title": "App Review appointment",
-    "start": "2026-09-10",
-    "end": "2026-09-12",
-    "formatted_date": "Sep 10 - Sep 11, 2026",
-    "format": "online",
-    "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/27PF6VT6A5/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/8RGU27WH9G/dashboard",
     "title": "App Review appointment",
     "start": "2026-09-15",
@@ -107,6 +96,17 @@
     "format": "online",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
+    "title": "Boost your app\u2019s speed and efficiency",
+    "start": "2026-10-29",
+    "end": "2026-10-30",
+    "formatted_date": "Oct 29, 2026",
+    "format": "online",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
     "source": "Apple Developer Events"
   }
 ]
