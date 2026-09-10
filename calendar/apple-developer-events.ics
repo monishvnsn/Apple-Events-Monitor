@@ -4,7 +4,7 @@ PRODID:-//AppleEventMonitor//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260909T185411Z
+DTSTAMP:20260910T014257Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260917
 SUMMARY:App Review appointment
@@ -14,7 +14,17 @@ URL:https://developer.apple.com/events/view/8RGU27WH9G/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260909T185411Z
+DTSTAMP:20260910T014257Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:iPhone Duo Group Lab
+LOCATION:Worldwide
+DESCRIPTION:Online event https://developer.apple.com/events/view/X87JK6V4TU/dashboard
+URL:https://developer.apple.com/events/view/X87JK6V4TU/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260910T014257Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260919
 SUMMARY:App Review appointment
@@ -24,7 +34,17 @@ URL:https://developer.apple.com/events/view/9B8JXH3AB2/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260909T185411Z
+DTSTAMP:20260910T014257Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:iPhone Duo Group Lab
+LOCATION:Worldwide
+DESCRIPTION:Online event https://developer.apple.com/events/view/9HX6P528G4/dashboard
+URL:https://developer.apple.com/events/view/9HX6P528G4/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260910T014257Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260924
 SUMMARY:App Review appointment
@@ -34,7 +54,37 @@ URL:https://developer.apple.com/events/view/38FDA8FPMW/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260909T185411Z
+DTSTAMP:20260910T014257Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:iPhone Duo Photos & Camera Q&A
+LOCATION:Worldwide
+DESCRIPTION:Online event https://developer.apple.com/events/view/H7Q98KPZ38/dashboard
+URL:https://developer.apple.com/events/view/H7Q98KPZ38/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260910T014257Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:iPhone Duo SwiftUI Q&A
+LOCATION:Worldwide
+DESCRIPTION:Online event https://developer.apple.com/events/view/MPQL773X4P/dashboard
+URL:https://developer.apple.com/events/view/MPQL773X4P/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260910T014257Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:iPhone Duo UIKit Q&A
+LOCATION:Worldwide
+DESCRIPTION:Online event https://developer.apple.com/events/view/LUA9Y8JB2Z/dashboard
+URL:https://developer.apple.com/events/view/LUA9Y8JB2Z/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260910T014257Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Request a one-on-one Apple Intelligence and app modernization appointment
@@ -44,62 +94,12 @@ URL:https://developer.apple.com/events/view/VYNXWMB56U/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260909T185411Z
+DTSTAMP:20260910T014257Z
 DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260926
-SUMMARY:App Review appointment
+DTEND;VALUE=DATE:20260925
+SUMMARY:iPhone Duo SwiftUI Q&A
 LOCATION:Worldwide
-DESCRIPTION:Online event https://developer.apple.com/events/view/392LZ2ZJNX/dashboard
-URL:https://developer.apple.com/events/view/392LZ2ZJNX/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260909T185411Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:IETF HLS Interest Day
-LOCATION:Cupertino\, Cupertino
-DESCRIPTION:Online event https://developer.apple.com/events/view/7W68Y49D7P/dashboard
-URL:https://developer.apple.com/events/view/7W68Y49D7P/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260909T185411Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261009
-SUMMARY:IETF HLS Interest Day
-LOCATION:Cupertino\, Cupertino
-DESCRIPTION:In-Person event https://developer.apple.com/events/view/3ZNQ5DGP99/dashboard
-URL:https://developer.apple.com/events/view/3ZNQ5DGP99/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260909T185411Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:Request a one-on-one Apple Intelligence and app modernization appointment
-LOCATION:Not listed
-DESCRIPTION:Online event https://developer.apple.com/events/view/ZLM3J3D96D/dashboard
-URL:https://developer.apple.com/events/view/ZLM3J3D96D/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260909T185411Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:Request a one-on-one Apple Intelligence and app modernization appointment
-LOCATION:Not listed
-DESCRIPTION:Online event https://developer.apple.com/events/view/2NC8ZT894Z/dashboard
-URL:https://developer.apple.com/events/view/2NC8ZT894Z/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260909T185411Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Boost your app’s speed and efficiency
-LOCATION:Cupertino\, Cupertino
-DESCRIPTION:Online event https://developer.apple.com/events/view/S7P3V2W9B4/dashboard
-URL:https://developer.apple.com/events/view/S7P3V2W9B4/dashboard
+DESCRIPTION:Online event https://developer.apple.com/events/view/WU636H5YL2/dashboard
+URL:https://developer.apple.com/events/view/WU636H5YL2/dashboard
 END:VEVENT
 END:VCALENDAR

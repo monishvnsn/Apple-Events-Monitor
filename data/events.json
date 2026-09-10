@@ -11,6 +11,17 @@
     "source": "Apple Developer Events"
   },
   {
+    "id": "https://developer.apple.com/events/view/X87JK6V4TU/dashboard",
+    "title": "iPhone Duo Group Lab",
+    "start": "2026-09-17",
+    "end": "2026-09-18",
+    "formatted_date": "Sep 17, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/X87JK6V4TU/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
     "id": "https://developer.apple.com/events/view/9B8JXH3AB2/dashboard",
     "title": "App Review appointment",
     "start": "2026-09-17",
@@ -19,6 +30,17 @@
     "format": "online",
     "location": "Worldwide",
     "url": "https://developer.apple.com/events/view/9B8JXH3AB2/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/9HX6P528G4/dashboard",
+    "title": "iPhone Duo Group Lab",
+    "start": "2026-09-17",
+    "end": "2026-09-18",
+    "formatted_date": "Sep 17, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/9HX6P528G4/dashboard",
     "source": "Apple Developer Events"
   },
   {
@@ -33,6 +55,39 @@
     "source": "Apple Developer Events"
   },
   {
+    "id": "https://developer.apple.com/events/view/H7Q98KPZ38/dashboard",
+    "title": "iPhone Duo Photos & Camera Q&A",
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "formatted_date": "Sep 23, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/H7Q98KPZ38/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/MPQL773X4P/dashboard",
+    "title": "iPhone Duo SwiftUI Q&A",
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "formatted_date": "Sep 23, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/MPQL773X4P/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/LUA9Y8JB2Z/dashboard",
+    "title": "iPhone Duo UIKit Q&A",
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "formatted_date": "Sep 23, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/LUA9Y8JB2Z/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
     "id": "https://developer.apple.com/events/view/VYNXWMB56U/dashboard",
     "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
     "start": "2026-09-23",
@@ -44,69 +99,14 @@
     "source": "Apple Developer Events"
   },
   {
-    "id": "https://developer.apple.com/events/view/392LZ2ZJNX/dashboard",
-    "title": "App Review appointment",
+    "id": "https://developer.apple.com/events/view/WU636H5YL2/dashboard",
+    "title": "iPhone Duo SwiftUI Q&A",
     "start": "2026-09-24",
-    "end": "2026-09-26",
-    "formatted_date": "Sep 24 - Sep 25, 2026",
+    "end": "2026-09-25",
+    "formatted_date": "Sep 24, 2026",
     "format": "online",
     "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/392LZ2ZJNX/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
-    "title": "IETF HLS Interest Day",
-    "start": "2026-10-07",
-    "end": "2026-10-08",
-    "formatted_date": "Oct 07, 2026",
-    "format": "online",
-    "location": "Cupertino, Cupertino",
-    "url": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/3ZNQ5DGP99/dashboard",
-    "title": "IETF HLS Interest Day",
-    "start": "2026-10-07",
-    "end": "2026-10-09",
-    "formatted_date": "Oct 07 - Oct 08, 2026",
-    "format": "in-person",
-    "location": "Cupertino, Cupertino",
-    "url": "https://developer.apple.com/events/view/3ZNQ5DGP99/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/ZLM3J3D96D/dashboard",
-    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
-    "start": "2026-10-07",
-    "end": "2026-10-08",
-    "formatted_date": "Oct 07, 2026",
-    "format": "online",
-    "location": "Not listed",
-    "url": "https://developer.apple.com/events/view/ZLM3J3D96D/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
-    "title": "Request a one-on-one Apple Intelligence and app modernization appointment",
-    "start": "2026-10-19",
-    "end": "2026-10-20",
-    "formatted_date": "Oct 19, 2026",
-    "format": "online",
-    "location": "Not listed",
-    "url": "https://developer.apple.com/events/view/2NC8ZT894Z/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
-    "title": "Boost your app\u2019s speed and efficiency",
-    "start": "2026-10-29",
-    "end": "2026-10-30",
-    "formatted_date": "Oct 29, 2026",
-    "format": "online",
-    "location": "Cupertino, Cupertino",
-    "url": "https://developer.apple.com/events/view/S7P3V2W9B4/dashboard",
+    "url": "https://developer.apple.com/events/view/WU636H5YL2/dashboard",
     "source": "Apple Developer Events"
   }
 ]
