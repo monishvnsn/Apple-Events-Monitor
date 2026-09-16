@@ -11,17 +11,6 @@
     "source": "Apple Developer Events"
   },
   {
-    "id": "https://developer.apple.com/events/view/9B8JXH3AB2/dashboard",
-    "title": "App Review appointment",
-    "start": "2026-09-17",
-    "end": "2026-09-19",
-    "formatted_date": "Sep 17 - Sep 18, 2026",
-    "format": "online",
-    "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/9B8JXH3AB2/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/9HX6P528G4/dashboard",
     "title": "iPhone Duo Group Lab",
     "start": "2026-09-17",
@@ -107,6 +96,17 @@
     "format": "online",
     "location": "Worldwide",
     "url": "https://developer.apple.com/events/view/4HG9PAC63N/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/392K736MJM/dashboard",
+    "title": "iPhone Duo Photos & Camera Q&A",
+    "start": "2026-09-24",
+    "end": "2026-09-25",
+    "formatted_date": "Sep 24, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/392K736MJM/dashboard",
     "source": "Apple Developer Events"
   }
 ]
