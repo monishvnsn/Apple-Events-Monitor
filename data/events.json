@@ -1,16 +1,5 @@
 [
   {
-    "id": "https://developer.apple.com/events/view/X87JK6V4TU/dashboard",
-    "title": "iPhone Duo Group Lab",
-    "start": "2026-09-17",
-    "end": "2026-09-18",
-    "formatted_date": "Sep 17, 2026",
-    "format": "online",
-    "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/X87JK6V4TU/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/9HX6P528G4/dashboard",
     "title": "iPhone Duo Group Lab",
     "start": "2026-09-17",
@@ -107,6 +96,17 @@
     "format": "online",
     "location": "Worldwide",
     "url": "https://developer.apple.com/events/view/392K736MJM/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/392LZ2ZJNX/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-09-24",
+    "end": "2026-09-26",
+    "formatted_date": "Sep 24 - Sep 25, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/392LZ2ZJNX/dashboard",
     "source": "Apple Developer Events"
   }
 ]
