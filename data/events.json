@@ -1,16 +1,5 @@
 [
   {
-    "id": "https://developer.apple.com/events/view/38FDA8FPMW/dashboard",
-    "title": "App Review appointment",
-    "start": "2026-09-22",
-    "end": "2026-09-24",
-    "formatted_date": "Sep 22 - Sep 23, 2026",
-    "format": "online",
-    "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/38FDA8FPMW/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/H7Q98KPZ38/dashboard",
     "title": "iPhone Duo Photos & Camera Q&A",
     "start": "2026-09-23",
@@ -107,6 +96,17 @@
     "format": "in-person",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/34M4M96G98/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/5U96X37K94/dashboard",
+    "title": "Workshop: Optimize your app for iPhone Duo",
+    "start": "2026-09-28",
+    "end": "2026-10-01",
+    "formatted_date": "Sep 28 - Sep 30, 2026",
+    "format": "in-person",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/5U96X37K94/dashboard",
     "source": "Apple Developer Events"
   }
 ]
