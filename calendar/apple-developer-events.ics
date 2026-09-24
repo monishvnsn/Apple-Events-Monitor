@@ -4,37 +4,7 @@ PRODID:-//AppleEventMonitor//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260924T015104Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:iPhone Duo SwiftUI Q&A
-LOCATION:Worldwide
-DESCRIPTION:Online event https://developer.apple.com/events/view/WU636H5YL2/dashboard
-URL:https://developer.apple.com/events/view/WU636H5YL2/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260924T015104Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:iPhone Duo UIKit Q&A
-LOCATION:Worldwide
-DESCRIPTION:Online event https://developer.apple.com/events/view/4HG9PAC63N/dashboard
-URL:https://developer.apple.com/events/view/4HG9PAC63N/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260924T015104Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:iPhone Duo Photos & Camera Q&A
-LOCATION:Worldwide
-DESCRIPTION:Online event https://developer.apple.com/events/view/392K736MJM/dashboard
-URL:https://developer.apple.com/events/view/392K736MJM/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260924T015104Z
+DTSTAMP:20260924T125724Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Workshop: Optimize your app for iPhone Duo
@@ -44,7 +14,7 @@ URL:https://developer.apple.com/events/view/34M4M96G98/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260924T015104Z
+DTSTAMP:20260924T125724Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20261001
 SUMMARY:Workshop: Optimize your app for iPhone Duo
@@ -54,7 +24,7 @@ URL:https://developer.apple.com/events/view/5U96X37K94/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260924T015104Z
+DTSTAMP:20260924T125724Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Get started with iPhone Duo
@@ -64,17 +34,7 @@ URL:https://developer.apple.com/events/view/7JMW2YP6MV/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260924T015104Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:Workshop: Optimize your app for iPhone Duo
-LOCATION:Bengaluru\, Bengaluru
-DESCRIPTION:In-Person event https://developer.apple.com/events/view/7R2CG6SWM6/dashboard
-URL:https://developer.apple.com/events/view/7R2CG6SWM6/dashboard
-END:VEVENT
-BEGIN:VEVENT
-UID:dashboard
-DTSTAMP:20260924T015104Z
+DTSTAMP:20260924T125724Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Workshop: Optimize your app for iPhone Duo
@@ -84,7 +44,7 @@ URL:https://developer.apple.com/events/view/DV8PJB9WA8/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260924T015104Z
+DTSTAMP:20260924T125724Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261001
 SUMMARY:App Review appointment
@@ -94,12 +54,52 @@ URL:https://developer.apple.com/events/view/UFQQW8773G/dashboard
 END:VEVENT
 BEGIN:VEVENT
 UID:dashboard
-DTSTAMP:20260924T015104Z
+DTSTAMP:20260924T125724Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Workshop: Optimize your app for iPhone Duo
 LOCATION:Not listed
 DESCRIPTION:In-Person event https://developer.apple.com/events/view/GRMULH4U2F/dashboard
 URL:https://developer.apple.com/events/view/GRMULH4U2F/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260924T125724Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Workshop: Optimize your app for iPhone Duo
+LOCATION:Not listed
+DESCRIPTION:In-Person event https://developer.apple.com/events/view/8DF9LXCH42/dashboard
+URL:https://developer.apple.com/events/view/8DF9LXCH42/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260924T125724Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Workshop: Optimize your app for iPhone Duo
+LOCATION:Bengaluru\, Bengaluru
+DESCRIPTION:In-Person event https://developer.apple.com/events/view/H858H68R95/dashboard
+URL:https://developer.apple.com/events/view/H858H68R95/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260924T125724Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Workshop: Optimize your app for iPhone Duo
+LOCATION:Not listed
+DESCRIPTION:In-Person event https://developer.apple.com/events/view/7ZUQWQY7H8/dashboard
+URL:https://developer.apple.com/events/view/7ZUQWQY7H8/dashboard
+END:VEVENT
+BEGIN:VEVENT
+UID:dashboard
+DTSTAMP:20260924T125724Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Workshop: Optimize your app for iPhone Duo
+LOCATION:Not listed
+DESCRIPTION:In-Person event https://developer.apple.com/events/view/FRT98DR454/dashboard
+URL:https://developer.apple.com/events/view/FRT98DR454/dashboard
 END:VEVENT
 END:VCALENDAR
