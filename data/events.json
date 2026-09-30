@@ -1,27 +1,5 @@
 [
   {
-    "id": "https://developer.apple.com/events/view/9WJ6SNNRRX/dashboard",
-    "title": "Workshop: Optimize your app for iPhone Duo",
-    "start": "2026-09-30",
-    "end": "2026-10-01",
-    "formatted_date": "Sep 30, 2026",
-    "format": "in-person",
-    "location": "Not listed",
-    "url": "https://developer.apple.com/events/view/9WJ6SNNRRX/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/GA48V53R6F/dashboard",
-    "title": "Workshop: Optimize your app for iPhone Duo",
-    "start": "2026-10-01",
-    "end": "2026-10-02",
-    "formatted_date": "Oct 01, 2026",
-    "format": "in-person",
-    "location": "Bengaluru, Bengaluru",
-    "url": "https://developer.apple.com/events/view/GA48V53R6F/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/NRB78WY2BF/dashboard",
     "title": "Workshop: Optimize your app for iPhone Duo",
     "start": "2026-10-01",
@@ -30,17 +8,6 @@
     "format": "in-person",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/NRB78WY2BF/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/W3J938FMK2/dashboard",
-    "title": "App Review appointment",
-    "start": "2026-10-01",
-    "end": "2026-10-03",
-    "formatted_date": "Oct 01 - Oct 02, 2026",
-    "format": "online",
-    "location": "Worldwide",
-    "url": "https://developer.apple.com/events/view/W3J938FMK2/dashboard",
     "source": "Apple Developer Events"
   },
   {
@@ -107,6 +74,39 @@
     "format": "in-person",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/4HXK2AKD2Q/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/KR28H7UJ2Z/dashboard",
+    "title": "Workshop: Optimize your app for iPhone Duo",
+    "start": "2026-10-06",
+    "end": "2026-10-07",
+    "formatted_date": "Oct 06, 2026",
+    "format": "in-person",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/KR28H7UJ2Z/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/4A5JTHWZ8C/dashboard",
+    "title": "App Review appointment",
+    "start": "2026-10-06",
+    "end": "2026-10-08",
+    "formatted_date": "Oct 06 - Oct 07, 2026",
+    "format": "online",
+    "location": "Worldwide",
+    "url": "https://developer.apple.com/events/view/4A5JTHWZ8C/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/JA5CFTL3HZ/dashboard",
+    "title": "Workshop: Optimize your app for iPhone Duo",
+    "start": "2026-10-06",
+    "end": "2026-10-07",
+    "formatted_date": "Oct 06, 2026",
+    "format": "in-person",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/JA5CFTL3HZ/dashboard",
     "source": "Apple Developer Events"
   }
 ]
