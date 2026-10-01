@@ -1,16 +1,5 @@
 [
   {
-    "id": "https://developer.apple.com/events/view/2N9JCSK3NJ/dashboard",
-    "title": "Workshop: Optimize your app for iPhone Duo",
-    "start": "2026-10-02",
-    "end": "2026-10-03",
-    "formatted_date": "Oct 02, 2026",
-    "format": "in-person",
-    "location": "Not listed",
-    "url": "https://developer.apple.com/events/view/2N9JCSK3NJ/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
     "id": "https://developer.apple.com/events/view/4372593NZA/dashboard",
     "title": "Workshop: Optimize your app for iPhone Duo",
     "start": "2026-10-05",
@@ -19,17 +8,6 @@
     "format": "in-person",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/4372593NZA/dashboard",
-    "source": "Apple Developer Events"
-  },
-  {
-    "id": "https://developer.apple.com/events/view/752UDT33C2/dashboard",
-    "title": "Workshop: Optimize your app for iPhone Duo",
-    "start": "2026-10-05",
-    "end": "2026-10-07",
-    "formatted_date": "Oct 05 - Oct 06, 2026",
-    "format": "in-person",
-    "location": "Not listed",
-    "url": "https://developer.apple.com/events/view/752UDT33C2/dashboard",
     "source": "Apple Developer Events"
   },
   {
@@ -107,6 +85,28 @@
     "format": "in-person",
     "location": "Not listed",
     "url": "https://developer.apple.com/events/view/ZJVTQXNA2R/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/4727G363L2/dashboard",
+    "title": "Workshop: Optimize your app for iPhone Duo",
+    "start": "2026-10-07",
+    "end": "2026-10-08",
+    "formatted_date": "Oct 07, 2026",
+    "format": "in-person",
+    "location": "Not listed",
+    "url": "https://developer.apple.com/events/view/4727G363L2/dashboard",
+    "source": "Apple Developer Events"
+  },
+  {
+    "id": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
+    "title": "IETF HLS Interest Day",
+    "start": "2026-10-07",
+    "end": "2026-10-08",
+    "formatted_date": "Oct 07, 2026",
+    "format": "online",
+    "location": "Cupertino, Cupertino",
+    "url": "https://developer.apple.com/events/view/7W68Y49D7P/dashboard",
     "source": "Apple Developer Events"
   }
 ]
